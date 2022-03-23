@@ -1,0 +1,111 @@
+body {
+  background-color: #000000;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+nav {
+  letter-spacing: 0.1em;
+  float: left;
+  width: 200px;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav a {
+  background-color: #3DED97;
+  border-bottom: 1px solid #000000;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+nav a:link {
+  color: #000000;
+}
+
+nav a:visited {
+  color: #000000;
+}
+
+nav a:hover {
+  background-color: #38ACEC;
+  color: #AFDCEC;
+}
+
+header {
+  align: center;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 200;
+}
+
+p {
+  color: #AFDCEC;
+  font-family: Arial, sans-serif;
+  font-size: 90%;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+main {
+  padding-left: 7em;
+  padding-right: 2em;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main li {
+  display: inline-block;
+  width: 225px;
+  padding-bottom: 10px;
+  margin: 10px;
+  text-align: center;
+  font-family: serif;
+  color: #FFFFFF;
+}
+
+h3 {
+  float: right;
+  padding-left: 9em;
+}
+
+#white {
+  background-color: #AFDCEC;
+  color: #FFFFFF;
+}
+
+footer {
+  font-size: .70em;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10px;
+  clear: both;
+  /*Clears the floated image in the center content area*/
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin: 0px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #container {
+      min-width: auto;
+    }
